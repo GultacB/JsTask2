@@ -1,0 +1,37 @@
+.boxes{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+  
+#box1,#box2,#box3,#box4{
+      border: 1px solid black;   
+      padding: 40px;
+      font-size: 30px;
+      text-align: center;  
+      transition: 0s;
+}
+  
+.box {
+     transition: 30s;
+}
+  
+#box1{
+      background-color: rgb(154, 97, 207);
+}
+  
+#box2{
+      background-color: rgb(40, 70, 152);
+}
+  
+#box3{
+      background-color: rgb(42, 194, 176);
+}
+  
+#box4{
+      background-color: coral;
+}
+  
